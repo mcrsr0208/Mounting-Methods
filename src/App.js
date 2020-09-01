@@ -18,6 +18,7 @@ class App extends React.Component{
 
   static getDerivedStateFromProps(){
    console.log('static getDerivedStateFromProps()');
+   return null;
   }
 
   render(){
